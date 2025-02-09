@@ -1,0 +1,11 @@
+prefix=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv
+exec_prefix=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv
+libdir=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv/lib
+includedir=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

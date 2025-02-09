@@ -1,0 +1,13 @@
+prefix=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv
+exec_prefix=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv
+libdir=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv/lib
+sharedlibdir=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv/lib
+includedir=/home/ayush/100xAyush/AI-AGENTS/notes-question/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
